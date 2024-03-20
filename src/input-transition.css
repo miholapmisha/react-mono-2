@@ -1,0 +1,14 @@
+.input-field:focus::placeholder {
+    font-size: 10px;
+    text-align: left;
+    transform: translate(0%, -140%);
+}
+
+.input-field:hover::placeholder {
+    text-align: left;
+    transition: font-size 0.3s ease, transform 0.3s ease;
+    transform: translate(0, 0);
+    font-size: 10px;
+    text-align: left;
+    transform: translate(0%, -140%);
+}
